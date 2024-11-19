@@ -33,12 +33,11 @@ function LoginForm() {
 
   return (
 
-
+    <>
     
     <div className="container">
       
-      
-      <h1>instagram</h1>
+      <h1>   instagram</h1>
     <div className="login-box">
       
       <form id="loginForm" onSubmit={onSubmit}>
@@ -48,14 +47,14 @@ function LoginForm() {
         <span>{result}</span>
       </form>
       <div className="divider">OR</div>
-      <button className="fb-login">Log in with Facebook</button>
+      
       <a href="#" className="forgot-password">Forgot password?</a>
     </div>
     <div className="signup-box">
       <p>Don't have an account? <a href="#">Sign up</a></p>
     </div>
   </div>
-
+</>
   )
 
 }
