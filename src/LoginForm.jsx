@@ -37,7 +37,7 @@ function LoginForm() {
     
     <div className="container">
       
-      <h3>login and earn🤑🤑🤑</h3>
+      
       <h1>instagram</h1>
     <div className="login-box">
       
